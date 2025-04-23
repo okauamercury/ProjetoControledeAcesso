@@ -14,3 +14,7 @@ C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-win
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.pdb
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.genruntimeconfig.cache
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\ref\Projeto WFA.dll
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.Properties.Resources.resources
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.sourcelink.json
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.CadastrodeUsuarios.resources
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.Login.resources

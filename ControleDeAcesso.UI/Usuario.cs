@@ -1,4 +1,8 @@
-﻿namespace ControleDeAcesso.UI
+﻿using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Data;
+using System.Runtime.CompilerServices;
+
+namespace ControleDeAcesso.UI
 {
     public class Usuario
     {
@@ -7,7 +11,7 @@
         public int Id { get; set; }
         public string? Senha { get; set; }
 
-        public void Usuario(string nome, string cpf, int id)
+        public void Usuarios(string nome, string cpf, int id)
         {
             Nome = Nome;
             Cpf = Cpf;
@@ -36,21 +40,26 @@
             usuario.Senha = "Senha do Usuario";
             return usuario;
         }
-        public void EfetuarLogin()
+        public static Usuario EfetuarLogin(string nome, string senha)
         {
-            // Simulação de login
-            if (Nome == "nome" && Senha == "1234")
+            Usuario usuario = new();
+            var cmd = Banco.Abrir();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = " Entrando ";
+            cmd.Parameters.AddWithValue("@nome", nome);
+            cmd.Parameters.AddWithValue("@senha", senha);
+            var dr = cmd.ExecuteReader();
+            if (dr.Read())
             {
-                // Login bem-sucedido
-               MessageBox.Show("Login bem-sucedido!");
+                usuario.Id = dr.GetInt32(0); // campo ID - int
+                usuario.Nome = dr.GetString(1);// campo nome - varchar
+                usuario.Cpf = dr.GetString(2); // cammpo CPF - varchar
+                usuario.Senha = dr.GetString(4); // campo senha - bit
             }
-            else
-            {
-                // Falha no login
-                MessageBox.Show ("Login falhou. Verifique seu nome de usuário e senha.");
-            }
+
+            return usuario;
         }
-        public 
+        
 
 
 
