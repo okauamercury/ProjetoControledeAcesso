@@ -3,7 +3,6 @@ C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\bin\Debug\net8.0-win
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\bin\Debug\net8.0-windows\Projeto WFA.runtimeconfig.json
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\bin\Debug\net8.0-windows\Projeto WFA.dll
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\bin\Debug\net8.0-windows\Projeto WFA.pdb
-C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.Form1.resources
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.csproj.GenerateResource.cache
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.AssemblyInfoInputs.cache
@@ -18,3 +17,4 @@ C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-win
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto WFA.sourcelink.json
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.CadastrodeUsuarios.resources
 C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.Login.resources
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\Projeto WFA\obj\Debug\net8.0-windows\Projeto_WFA.ConsultaAcesso.resources

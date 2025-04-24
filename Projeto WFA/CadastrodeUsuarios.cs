@@ -2,7 +2,8 @@ namespace Projeto_WFA
 {
     public partial class CadastrodeUsuarios : Form
     {
-        public object Usuarios { get; private set; }
+        public string Usuarios { get; set; }
+        public int Id { get ;  set; }
 
         public CadastrodeUsuarios()
         {
@@ -14,18 +15,18 @@ namespace Projeto_WFA
 
         }
 
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void btnInserir_Click(object sender, EventArgs e)
         {
-            Usuarios usuario = new Usuario();
-            usuario.Nome = txtNome.Text;
-            usuario.Senha = txtSenha.Text;
-            usuario.Cpf = txtCpf.Text;
-            usuario.CadastrodeUsuarios(usuario.Nome, usuario.Senha, usuario.Cpf);
+            Usuario usuario = new(txtNome.Text, txtCpf.Text, txtSenha.Text, txtTipodeUsuário.Text);
+            usuario.Id.ToString();
+            txtId.Text = usuario.Id.ToString();
+            MessageBox.Show($"Usuário {txtNome.Text} cadastrado com sucesso!");
+            CadastrodeUsuarios_Load(sender, e);
+        }
 
-           
-                    
-            
-            
+        private void CadastrodeUsuarios_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

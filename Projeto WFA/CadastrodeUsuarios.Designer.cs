@@ -42,7 +42,7 @@
             txtTipodeUsuário = new Label();
             txtCpf = new Label();
             txtNome = new Label();
-            btnSalvar = new Button();
+            btnInserir = new Button();
             imageList1 = new ImageList(components);
             imageList2 = new ImageList(components);
             panel1.SuspendLayout();
@@ -64,7 +64,7 @@
             panel1.Controls.Add(txtTipodeUsuário);
             panel1.Controls.Add(txtCpf);
             panel1.Controls.Add(txtNome);
-            panel1.Controls.Add(btnSalvar);
+            panel1.Controls.Add(btnInserir);
             panel1.Location = new Point(177, 55);
             panel1.Name = "panel1";
             panel1.Size = new Size(441, 306);
@@ -103,7 +103,6 @@
             textBox3.Size = new Size(74, 23);
             textBox3.TabIndex = 9;
             textBox3.UseSystemPasswordChar = true;
-
             // 
             // textBox2
             // 
@@ -173,15 +172,15 @@
             txtNome.TabIndex = 1;
             txtNome.Text = "Nome";
             // 
-            // btnSalvar
+            // btnInserir
             // 
-            btnSalvar.Location = new Point(177, 256);
-            btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(75, 23);
-            btnSalvar.TabIndex = 0;
-            btnSalvar.Text = "Salvar";
-            btnSalvar.UseVisualStyleBackColor = true;
-            btnSalvar.Click += btnEntrar_Click;
+            btnInserir.Location = new Point(177, 256);
+            btnInserir.Name = "btnInserir";
+            btnInserir.Size = new Size(75, 23);
+            btnInserir.TabIndex = 0;
+            btnInserir.Text = "Inserir";
+            btnInserir.UseVisualStyleBackColor = true;
+            btnInserir.Click += btnInserir_Click;
             // 
             // imageList1
             // 
@@ -204,6 +203,7 @@
             Controls.Add(panel1);
             Name = "CadastrodeUsuarios";
             Text = "Form1";
+            Load += CadastrodeUsuarios_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -213,7 +213,7 @@
         #endregion
 
         private Panel panel1;
-        private Button btnSalvar;
+        private Button btnInserir;
         private Label txtSenha;
         private Label txtNome;
         private TextBox textBox3;
