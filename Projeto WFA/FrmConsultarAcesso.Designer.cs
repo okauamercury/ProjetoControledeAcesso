@@ -1,6 +1,6 @@
 ﻿namespace Projeto_WFA
 {
-    partial class ConsultaAcesso
+    partial class FrmConsultarAcesso
     {
         /// <summary>
         /// Required designer variable.

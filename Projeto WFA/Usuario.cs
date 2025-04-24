@@ -13,5 +13,10 @@ namespace Projeto_WFA
         {
             throw new NotImplementedException();
         }
+
+        internal void Inserir() { }
+        
+        
+        
     }
 }

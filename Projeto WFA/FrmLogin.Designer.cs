@@ -1,6 +1,6 @@
 ﻿namespace Projeto_WFA
 {
-    partial class Login
+    partial class FrmLogin
     {
         /// <summary>
         /// Required designer variable.

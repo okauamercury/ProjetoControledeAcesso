@@ -13,7 +13,7 @@ namespace ControleDeAcesso.UI
         public static MySqlCommand Abrir()
         {
             MySqlCommand cmd = new();
-            string strConn = @"server=10.91.47.35;database=tdsqueuedb01;user=root;password=";
+            string strConn = @"server=127.0.0.1;database=controledeacesso;user=root;password=";
 
             // string strConn = @"server=127.0.0.1;database=tdsqueuedb01;user=root;password=" // meu servidor local
             MySqlConnection cn = new(strConn);

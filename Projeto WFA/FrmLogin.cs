@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Projeto_WFA
 {
-    public partial class Login : Form
+    public partial class FrmLogin : Form
     {
-       
+
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-             if (txtNome.Text != string.Empty && txtSenha.Text != string.Empty)
-             {
+            if (txtNome.Text != string.Empty && txtSenha.Text != string.Empty)
+            {
                 var usuario = Usuario.Logar(txtNome.Text, txtSenha.Text);
                 if (usuario > 0)
                 {
@@ -28,10 +28,14 @@ namespace Projeto_WFA
                     MessageBox.Show("Usuário ou senha inválidos");
                 }
 
-             }
+            }
         }
-             
-            
-          
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+            txtNome.Focus();
+        }
+
     }
+
 }
+    

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_WFA
 {
-    public partial class ConsultaAcesso : Form
+    public partial class FrmConsultarAcesso : Form
     {
-        public ConsultaAcesso()
+        public FrmConsultarAcesso()
         {
             InitializeComponent();
         }
@@ -25,10 +25,10 @@ namespace Projeto_WFA
         {
             int linha = dgvConsultar.Rows.Count;
             int id= Convert.ToInt32(dgvConsultar.Rows[linha].Cells[0].Value);
-            string nome = dgvConsultar.Rows[linha].Cells[1].Value.ToString();
-            string cpf = dgvConsultar.Rows[linha].Cells[2].Value.ToString();
-            string tipo = dgvConsultar.Rows[linha].Cells[3].Value.ToString();
-            string senha = dgvConsultar.Rows[linha].Cells[4].Value.ToString();
+            dgvConsultar.Rows[linha].Cells[1].Value.ToString();
+            dgvConsultar.Rows[linha].Cells[2].Value.ToString();
+            dgvConsultar.Rows[linha].Cells[3].Value.ToString();
+            dgvConsultar.Rows[linha].Cells[4].Value.ToString();
         }
     }
 }

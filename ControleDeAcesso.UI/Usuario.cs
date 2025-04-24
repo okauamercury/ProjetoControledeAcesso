@@ -71,24 +71,17 @@ namespace ControleDeAcesso.UI
 
             return usuario;
         }
-        public void CadastrarUsuario()
-        {
-           Usuario usuario = new Usuario();
-            var cmd = Banco.Abrir();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = $"insert into usuarios(nome, cof, tipo, senha)" +
-                $"values ('{Nome}', '{Cpf}', '{Tipo}, 'md5('{Senha}')";
-            cmd.ExecuteNonQuery();
-           
-        }
         public void Inserir()
         {
-            var cmd = Banco.Abrir();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = $"insert into usuarios(nome, cpf, tipo, senha)" +
+           Usuario usuario = new Usuario();
+           var cmd = Banco.Abrir();
+           cmd.CommandType = CommandType.Text;
+           cmd.CommandText = $"insert into usuarios(nome, cof, tipo, senha)" +
                 $"values ('{Nome}', '{Cpf}', '{Tipo}, 'md5('{Senha}')";
-            cmd.ExecuteNonQuery();
+           cmd.ExecuteNonQuery();
+           
         }
+        
 
 
     }

@@ -1,6 +1,6 @@
 ﻿namespace Projeto_WFA
 {
-    partial class CadastrodeUsuarios
+    partial class FrmCadastrarUsuario
     {
         /// <summary>
         ///  Required designer variable.
