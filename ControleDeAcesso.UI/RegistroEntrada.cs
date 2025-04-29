@@ -28,6 +28,7 @@ namespace ControleDeAcesso.UI
         public void RegistrarEntrada()
         {
             var cmd = Banco.Abrir();
+
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "INSERT INTO RegistroEntrada (usuarioId, DataHora, TipoOperação) VALUES (@usuarioId, @DataHora, @TipoOperação)";
             cmd.Parameters.AddWithValue("@usuarioId", usuarioId);
@@ -38,6 +39,7 @@ namespace ControleDeAcesso.UI
         public void ObterPorId()
         {
             var cmd = Banco.Abrir();
+
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "SELECT * FROM RegistroEntrada WHERE Id = @Id";
             cmd.Parameters.AddWithValue("@Id", Id);

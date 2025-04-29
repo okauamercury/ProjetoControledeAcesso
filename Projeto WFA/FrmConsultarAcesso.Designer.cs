@@ -61,15 +61,16 @@
             clnTipoOperação.HeaderText = "Tipo Operação";
             clnTipoOperação.Name = "clnTipoOperação";
             // 
-            // ConsultaAcesso
+            // FrmConsultarAcesso
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(800, 450);
             Controls.Add(dgvConsultar);
-            Name = "ConsultaAcesso";
+            Name = "FrmConsultarAcesso";
             Text = "ConsultaAcesso";
+            Load += FrmConsultarAcesso_Load;
             ((System.ComponentModel.ISupportInitialize)dgvConsultar).EndInit();
             ResumeLayout(false);
         }

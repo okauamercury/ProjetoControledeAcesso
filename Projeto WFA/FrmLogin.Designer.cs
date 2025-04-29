@@ -30,8 +30,8 @@
         {
             panel1 = new Panel();
             btnEntrar = new Button();
-            txtSenha = new TextBox();
-            txtNome = new TextBox();
+            txtLoginSenha = new TextBox();
+            txtLoginNome = new TextBox();
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
@@ -42,8 +42,8 @@
             // 
             panel1.BackColor = SystemColors.AppWorkspace;
             panel1.Controls.Add(btnEntrar);
-            panel1.Controls.Add(txtSenha);
-            panel1.Controls.Add(txtNome);
+            panel1.Controls.Add(txtLoginSenha);
+            panel1.Controls.Add(txtLoginNome);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
@@ -62,20 +62,20 @@
             btnEntrar.UseVisualStyleBackColor = true;
             btnEntrar.Click += btnEntrar_Click;
             // 
-            // txtSenha
+            // txtLoginSenha
             // 
-            txtSenha.Location = new Point(74, 143);
-            txtSenha.Name = "txtSenha";
-            txtSenha.Size = new Size(100, 23);
-            txtSenha.TabIndex = 4;
-            txtSenha.UseSystemPasswordChar = true;
+            txtLoginSenha.Location = new Point(74, 143);
+            txtLoginSenha.Name = "txtLoginSenha";
+            txtLoginSenha.Size = new Size(100, 23);
+            txtLoginSenha.TabIndex = 4;
+            txtLoginSenha.UseSystemPasswordChar = true;
             // 
-            // txtNome
+            // txtLoginNome
             // 
-            txtNome.Location = new Point(74, 101);
-            txtNome.Name = "txtNome";
-            txtNome.Size = new Size(100, 23);
-            txtNome.TabIndex = 3;
+            txtLoginNome.Location = new Point(74, 101);
+            txtLoginNome.Name = "txtLoginNome";
+            txtLoginNome.Size = new Size(100, 23);
+            txtLoginNome.TabIndex = 3;
             // 
             // label3
             // 
@@ -105,15 +105,16 @@
             label1.TabIndex = 0;
             label1.Text = "Login de Usuário";
             // 
-            // Login
+            // FrmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(800, 450);
             Controls.Add(panel1);
-            Name = "Login";
+            Name = "FrmLogin";
             Text = "Login";
+            Load += FrmLogin_Load_1;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -126,7 +127,7 @@
         private Label label2;
         private Label label1;
         private Button btnEntrar;
-        private TextBox txtSenha;
-        private TextBox txtNome;
+        private TextBox txtLoginSenha;
+        private TextBox txtLoginNome;
     }
 }

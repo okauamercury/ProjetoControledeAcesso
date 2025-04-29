@@ -1,0 +1,19 @@
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.csproj.AssemblyReference.cache
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.AssemblyInfoInputs.cache
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.AssemblyInfo.cs
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.csproj.CoreCompileInputs.cache
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.sourcelink.json
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\Projeto WFA.deps.json
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\Projeto WFA.runtimeconfig.json
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\Projeto WFA.exe
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\ControleDeAcesso.UI.deps.json
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\ControleDeAcesso.UI.dll
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\ControleDeAcesso.UI.pdb
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\Projeto WFA.dll
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\bin\Debug\net8.0-windows\Projeto WFA.pdb
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\Controle.14D0AD43.Up2Date
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.dll
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\refint\ControleDeAcesso.UI.dll
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ControleDeAcesso.UI.pdb
+C:\Users\kaua.pmcrocha\source\repos\Projeto WFA\ControleDeAcesso.UI\obj\Debug\net8.0-windows\ref\ControleDeAcesso.UI.dll

@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
-using MySqlConnector;
+﻿using MySql.Data.MySqlClient;
+
 
 namespace ControleDeAcesso.UI
 {
@@ -13,10 +8,11 @@ namespace ControleDeAcesso.UI
         public static MySqlCommand Abrir()
         {
             MySqlCommand cmd = new();
-            string strConn = @"server=127.0.0.1;database=controledeacesso;user=root;password=";
+            string strconn = @"server=127.0.0.1;database=controledeacesso;user=root;password=";
 
-            // string strConn = @"server=127.0.0.1;database=tdsqueuedb01;user=root;password=" // meu servidor local
-            MySqlConnection cn = new(strConn);
+
+           
+            MySqlConnection cn = new(strconn);
             try
             {
                 cn.Open();
@@ -26,6 +22,7 @@ namespace ControleDeAcesso.UI
             {
                 Console.WriteLine(ex.Message);
             }
+
             return cmd;
         }
     }

@@ -24,11 +24,16 @@ namespace Projeto_WFA
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int linha = dgvConsultar.Rows.Count;
-            int id= Convert.ToInt32(dgvConsultar.Rows[linha].Cells[0].Value);
+            int id = Convert.ToInt32(dgvConsultar.Rows[linha].Cells[0].Value);
             dgvConsultar.Rows[linha].Cells[1].Value.ToString();
             dgvConsultar.Rows[linha].Cells[2].Value.ToString();
             dgvConsultar.Rows[linha].Cells[3].Value.ToString();
             dgvConsultar.Rows[linha].Cells[4].Value.ToString();
+        }
+
+        private void FrmConsultarAcesso_Load(object sender, EventArgs e)
+        {
+            FrmConsultarAcesso_Load(sender, e);
         }
     }
 }

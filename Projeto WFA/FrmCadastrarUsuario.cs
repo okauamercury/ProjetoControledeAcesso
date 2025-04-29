@@ -1,3 +1,6 @@
+using WinFormsLibrary1;
+
+
 namespace Projeto_WFA
 {
     public partial class FrmCadastrarUsuario : Form
@@ -17,17 +20,23 @@ namespace Projeto_WFA
 
          public void btnInserir_Click(object sender, EventArgs e)
          {
-            Usuario usuario = new(txtNome.Text, txtCpf.Text, txtSenha.Text, txtTipodeUsuário.Text);
+            
+            
+            Usuario usuario = new(txtCadastroNome.Text, txtCadastroCpf.Text, comboBox1.Text, txtCadastroSenha.Text);
             usuario.Inserir();
             
-            MessageBox.Show($"Usuário {txtNome.Text} cadastrado com sucesso!");
-            CadastrodeUsuarios_Load(sender, e);
+            MessageBox.Show("Usuário cadastrado com sucesso!");
+
          }
 
+        private void CadastrarUsuario_Load(object sender, EventArgs e)
+        {
+          
+        }
 
         private void CadastrodeUsuarios_Load(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
