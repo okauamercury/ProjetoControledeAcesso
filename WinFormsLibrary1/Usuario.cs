@@ -1,4 +1,4 @@
-﻿using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.Data;
 using System.Runtime.CompilerServices;
 
@@ -84,7 +84,29 @@ namespace WinFormsLibrary1
                 $"values ('{Nome}', '{Cpf}', '{TipoUsuario}', md5('{Senha}'))";
             cmd.ExecuteNonQuery();          
         }
+        public bool Atualizar()
+      {
+        var cmd = Banco.Abrir();
+        cmd.CommandType = System.Data.CommandType;
+        cmd.CommandText = $"update usuarios set usuario values (nome {Nome}, cpf {Cpf}, tipousuario{Tipousuario}, senha{Senha})";
+        var cmd = cmd.ExecuteReader()
+        {
+            Usuario usuario = new();
+            dr.GetInt32(0);
+            dr.GetString(1);
+            dr.GetString(2);
+            dr.GetStrint(3);
+            dr.GetString(4);
+            
+
+        }
+        dr.Close();
+        cmd.Connection.Close();
+        return usuario; 
+
         
+      }
+
 
 
     }
